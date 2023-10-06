@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+}
+
+.container-fluid{
+    background-color: #464c4e;
+    height: 85px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(img/ba1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.botonder{
+    font-size: 20px;
+    border-color: white; 
+    background:none; 
+    color: white; 
+    border-radius: 5px;
+}
+
+.botonizq{
+    font-size: 20px;
+    border-color: rgb(84, 162, 5); 
+    background:rgb(84, 162, 5); 
+    color: white; 
+    border-radius: 5px;
+}
+
+.tarjetas{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+
+}
+
+.botones1{
+    display: flex;
+    align-items: flex-start;
+}
+
+.bloque3{
+    margin-top: 10px;
+    display: flex;
+}
+
+.formulario{
+    text-align: center;
+    width: 70%;
+    margin-left: 180px;
+}
+
+.container-fluid2{
+    background-color: rgb(16, 58, 69);
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
